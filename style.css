@@ -1,0 +1,116 @@
+body{
+	margin: 100px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	height: 500px;
+	background-color: rgba(12, 159, 195);
+	align-items: center;
+	font-family: Arial;
+}
+
+.Etang{
+	background-color: #f2f2fc;
+	width: 550px;
+	height: 510px;
+	text-align: left;
+	padding: 40px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin: 100px;
+
+}
+
+.Etang h2{
+	margin: 0 0 20px; 
+	width: 100%;
+	margin-bottom: 25px;
+	text-align: center;
+	font-family: Arial;
+}
+
+
+
+.Etang .input-group{
+
+	position: relative;
+	width: 100%;
+	margin-bottom: 7px;
+	text-align: center;
+}
+
+.Etang .input-group input{
+	height: 50px;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	border: 3px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.Etang .input-group input[type="submit"]{
+	background-color: #FFFF0EE7;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+	width: 45%;
+	transition: 0.5s;
+	text-align: center;
+}
+
+.Etang .input-group input[type="submit"]:hover{
+	width: 48%;
+	background-color: #fbca00;
+}
+
+.Etang .input-group input[type="reset"]{
+	background-color: #f04f26;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+	width: 35%;
+	transition: 0.5s;
+	text-align: center;
+}
+
+.Etang .input-group input[type="reset"]:hover{
+	width: 38%;
+	background-color: #cc421f;
+}
+
+.Etang .input-group button{
+	height: 50px;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 18px;
+	border: 3px solid black;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 45px;
+}
+
+.Etang .input-group [type="button"]{
+	background-color: #FFFF0EE7;
+	border: none;
+	font-weight: bold;
+	cursor: pointer;
+	width: 35%;
+	transition: 0.5s;
+	text-align: center;
+}
+
+.Etang .input-group [type="button"]:hover{
+	width: 38%;
+	background-color: #fbca00;
+}
+
+
+@media (max-width: 780px){
+	.container{
+		width: 50%;
+		height: auto;
+	}
+}
